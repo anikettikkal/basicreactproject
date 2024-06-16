@@ -1,6 +1,11 @@
+import Navbar from '../../Components/Navbar/Navbar.jsx'
+
 function Home(){
     return(
-        <h1>Aniket</h1>
+        <>
+            <Navbar />
+            <h1>Aniket</h1>
+        </>
     )
 }
 export default Home
