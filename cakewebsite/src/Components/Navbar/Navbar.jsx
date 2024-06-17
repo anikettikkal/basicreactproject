@@ -13,7 +13,8 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-brand">
-                    <a href="#">Cake Delights</a>
+
+                    <a href="#">Cake & ART 🍰</a>
                 </div>
                 <div className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul className="navbar-nav">

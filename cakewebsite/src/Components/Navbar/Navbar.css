@@ -1,5 +1,5 @@
 /* Navbar.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -10,10 +10,15 @@
 }
 
 .navbar-brand a {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight:bolder;
     color: #543a27;
     text-decoration: none;
+    font-family: 'Caveat', cursive;
+}
+
+.logo-image{
+    height: 150px;
 }
 
 .navbar-nav {
