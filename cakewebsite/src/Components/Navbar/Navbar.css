@@ -4,9 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5d9bf;
+    background-color: white;
     color: #543a27;
     padding: 1rem;
+    border: 1px solid #543a27;
 }
 
 .navbar-brand a {
