@@ -1,0 +1,79 @@
+.cake-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cake-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.cake-card:hover {
+    transform: translateY(-5px);
+}
+
+.cake-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cake-info {
+    padding: 1.5rem;
+}
+
+.cake-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.cake-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.cake-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e91e63;
+    margin-bottom: 1rem;
+}
+
+.order-button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #e91e63;
+}
+
+@media screen and (min-width: 768px) {
+    .cake-cards-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cake-card {
+        flex: 0 1 calc(33.333% - 2rem);
+    }
+}
